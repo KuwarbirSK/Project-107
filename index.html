@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Combo&family=Oswald:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="col-xs-12 header_div text-center right_foor_header" id="header">
+            <h2 id="sound_h">Sound controlled Animals</h2>     
+            <p>Note: Play different sounds like barking, meowing</p>     
+          </div>
+          <div>
+            <center>
+                <button class="btn btn-warning" onclick="StartIdentification()">Start</button>
+                <h4 id="sounds_counter"> </h4>
+                <h3 id="played_audio">I can hear - </h3>
+                <br>
+                <img id="img" src="1img.gif" width="300" height="300">
+            </center>
+          </div>
+          <script src="main.js" ></script>
+    </body>
+</html>

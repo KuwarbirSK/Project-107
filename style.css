@@ -1,0 +1,19 @@
+Body{
+    background-color:antiquewhite;
+    font-family: 'Combo', cursive;
+font-family: 'Oswald', sans-serif;
+}
+
+.right_foor_header{
+    color:antiquewhite;
+        width: 100%;
+        font-size: 25px;
+        line-height:2 ;
+        background-color:burlywood;
+        text-align: center; 
+        text-shadow: 5px 5px 5px rgb(151, 149, 149);
+}
+
+#sound_h{
+    letter-spacing: 10;
+}
